@@ -12,7 +12,6 @@ const initialStudents = [
     { id : 5, name:'Akram abdelbari SERRAR', email:'akram.serrar@univ-constantine2.dz', numAbs: 0},
     { id : 6, name:'Akram abdelbari', email:'akram.serrar@univ-constantine2.dz', numAbs: 0},
     { id : 7, name:'Akram ', email:'akram.serrar@univ-constantine2.dz', numAbs: 1},
-    { id : 8, name:'Akram abdelbari', email:'akram.serrar@univ-constantine2.dz', numAbs: 0},
 ]
 
 
@@ -48,12 +47,13 @@ function Admin() {
     }
     return (
         <div>
-            <h1 className="specialTitle">Students</h1>
+            
             <div className="buttons">
                 <a href="/Admin">Students</a>
                 <a href="/Teachers">Teachers</a>
                 <a href="/Modules">Modules</a>
             </div>
+            <h1 className="specialTitle">Students</h1>
             <div className="Students">
                 <table>
                     <thead>

@@ -1,5 +1,9 @@
 import './App.css'
 import image from './loginpic.png'
+
+import { FaUser } from 'react-icons/fa';
+import { MdPassword } from "react-icons/md";
+
 // import { Link } from 'react-router-dom';
 
 function Login() {
@@ -19,12 +23,12 @@ function Login() {
          
           <form>
             <div className='name' >
-              <label>Name</label>
+              <label><FaUser/> Name </label>
               <br></br>
               <input type='text' placeholder='your name'></input>
             </div>
             <div className='password'>
-              <label>Password</label>
+              <label> <MdPassword/> Password</label>
               <br></br>
               <input type='password' placeholder='******'></input>
             </div>

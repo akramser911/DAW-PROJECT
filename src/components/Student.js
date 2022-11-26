@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import { MdMode } from "react-icons/md";
+import { MdDelete } from "react-icons/md";
 
 export default function Student({index, Value, deleteStudent}) {
        
@@ -7,8 +8,8 @@ export default function Student({index, Value, deleteStudent}) {
             <td>{Value.name}</td>
             <td>{Value.email}</td>
             <td>{Value.numAbs}</td>
-            <td className="lastTd"><button className="editedBtn" >UPDATE</button></td>
-            <td className="lastTd"><button className="editedBtn" onClick={()=>{deleteStudent(Value.id)}}>DELETE</button></td>
+            <td className="lastTd"><button className="editedBtn" > <MdMode/> UPDATE</button></td>
+            <td className="lastTd"><button className="editedBtn" onClick={()=>{deleteStudent(Value.id)}}><MdDelete/>DELETE</button></td>
         </tr>
         
     );

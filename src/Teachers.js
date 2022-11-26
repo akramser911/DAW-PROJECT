@@ -39,12 +39,13 @@ function Teachers() {
     }
     return (
         <div>
-            <h1 className="specialTitle">Teachers</h1>
+            
             <div className="buttons">
                 <a href="/Admin">Students</a>
                 <a href="/Teachers">Teachers</a>
                 <a href="/Modules">Modules</a>
             </div>
+            <h1 className="specialTitle">Teachers</h1>
             <div className="Students">
                 <table>
                     <thead>

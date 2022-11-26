@@ -1,0 +1,38 @@
+.details,.detailsJustification {
+    padding: 10px;
+    margin: auto ;
+    text-align: center;
+    background-color: #FFFAE2;
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 15px gray;
+    margin-bottom: 50px;
+}
+.detailsJustification {
+    margin: 250px auto;
+}
+.shape {
+    border-radius: 10px;
+    margin: auto;
+    width: 40%;
+    background: rgb(255,250,226);
+background: linear-gradient(0deg, rgba(255,250,226,1) 0%, rgba(252,177,177,1) 100%);
+}
+.bordered:hover{
+    border: 1px solid black;
+    margin: auto;
+    width: 40%;
+    border-radius: 10px;
+}
+.updateBtn {
+    margin-top: -30px;
+    margin-left: 610px;
+
+}
+.updateBtn button {
+    background: rgb(252,177,177);
+    background: linear-gradient(0deg, rgba(252,177,177,1) 0%, rgba(255,250,226,1) 100%);
+    padding: 3px;
+    border: 1px solid;
+} 
